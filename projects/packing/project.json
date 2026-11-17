@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "packing",
+  "name": "梱包レベル1〜3（今回の2名）",
+  "source_url": "https://www.instagram.com/p/DfR36MmTIsK/",
+  "reference": "assets/reference.mp4",
+  "people": [
+    "assets/person.png",
+    "assets/assistant.png"
+  ],
+  "duration": 34.733333333333334,
+  "resolution": "768P",
+  "ratio": "9:16",
+  "max_run_jpy": 1200,
+  "segments": [
+    {
+      "id": "a",
+      "seconds": 15,
+      "target_seconds": 14.733333333333333,
+      "prompt": "assets/prompt-a.txt",
+      "reference": "assets/ref-a-clean.mp4"
+    },
+    {
+      "id": "b",
+      "seconds": 10,
+      "target_seconds": 10,
+      "prompt": "assets/prompt-b.txt",
+      "reference": "assets/ref-b-clean.mp4"
+    },
+    {
+      "id": "c",
+      "seconds": 10,
+      "target_seconds": 10,
+      "prompt": "assets/prompt-c.txt",
+      "reference": "assets/ref-c-clean.mp4"
+    }
+  ],
+  "render_scripts": [
+    "graphics.py",
+    "audio.py",
+    "finish.py",
+    "make_page.py"
+  ],
+  "output_video": "Packing-trial.mp4",
+  "comparison": "index.html"
+}

@@ -1,0 +1,13 @@
+.env
+.venv/
+.venv-mac/
+.setup/
+__pycache__/
+runs/
+ledger/
+state/
+output/
+last-run.txt
+run.lock
+projects/custom_*/
+.models/
